@@ -1,0 +1,4 @@
+
+@media (max-width: 768px) {
+nav a, .menu a, .navbar a, .menu-toggle, .hamburger { color: white !important; }
+}

@@ -1,0 +1,80 @@
+import { Link } from 'react-router-dom';
+import type { Filme } from '@/mocks/filmes';
+import { useAuth } from '@/hooks/useAuth';
+
+interface MovieCardProps {
+  filme: Filme;
+  index?: number;
+}
+
+export default function MovieCard({ filme, index = 0 }: MovieCardProps) {
+  const { user, isAdmin, filmesLiberados } = useAuth();
+
+  const isLiberado = isAdmin || (user && user.ativo && filmesLiberados.some(f => f.id === filme.id));
+
+  return (
+    <Link
+      to={`/movie/${filme.id}`}
+      className="group relative flex-shrink-0 w-[160px] md:w-[200px] lg:w-[220px] animate-fade-in-up cursor-pointer"
+      style={{ animationDelay: `${index * 80}ms` }}
+    >
+      <div className="relative aspect-[2/3] rounded-lg overflow-hidden bg-gray-900">
+        <img
+          src={filme.imagem}
+          alt={filme.titulo}
+          title={`${filme.titulo} - ${filme.ano}`}
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+          loading="lazy"
+        />
+
+        {!isLiberado && (
+          <div className="absolute inset-0 bg-black/70 flex items-center justify-center">
+            <div className="text-center px-2">
+              <div className="w-10 h-10 mx-auto mb-2 flex items-center justify-center bg-gray-800 rounded-full">
+                <i className="ri-lock-line text-lg text-gray-400"></i>
+              </div>
+              <span className="text-gray-400 text-[10px] md:text-xs font-medium">
+                Premium
+              </span>
+            </div>
+          </div>
+        )}
+
+        {isLiberado && (
+          <>
+            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400" />
+
+            <div className="absolute top-2 right-2 px-1.5 py-0.5 bg-black/80 backdrop-blur-sm rounded text-xs font-bold text-yellow-400 opacity-0 group-hover:opacity-100 transition-all duration-300">
+              {filme.nota.toFixed(1)}
+            </div>
+
+            <div className="absolute bottom-0 left-0 right-0 p-3 translate-y-full group-hover:translate-y-0 transition-transform duration-400">
+              <p className="text-white text-sm font-semibold leading-tight mb-1 line-clamp-2">
+                {filme.titulo}
+              </p>
+              <div className="flex items-center gap-2 text-xs text-gray-400">
+                <span>{filme.ano}</span>
+                <span className="w-0.5 h-0.5 rounded-full bg-gray-500"></span>
+                <span className="bg-red-600/20 text-red-400 px-1.5 py-0.5 rounded text-[10px] font-medium">
+                  {filme.classificacao}
+                </span>
+                <span className="w-0.5 h-0.5 rounded-full bg-gray-500"></span>
+                <span>{filme.duracao}</span>
+              </div>
+            </div>
+
+            <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-red-600/90 flex items-center justify-center shadow-lg">
+                <i className="ri-play-fill text-xl md:text-2xl text-white ml-0.5"></i>
+              </div>
+            </div>
+          </>
+        )}
+      </div>
+
+      <div className="mt-2.5 px-0.5 group-hover:opacity-0 transition-opacity duration-300">
+        <p className="text-gray-300 text-sm font-medium truncate">{filme.titulo}</p>
+      </div>
+    </Link>
+  );
+}

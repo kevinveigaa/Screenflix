@@ -1,0 +1,167 @@
+ O volume na unidade K ‚ Novo volume
+ O N£mero de S‚rie do Volume ‚ 56F1-A97E
+
+ Pasta de K:\downlods kewvin\readdy.cc\readdy.cc\preview\Screenflix-recuperado\src
+
+26/07/2026  22:51    <DIR>          .
+26/07/2026  22:51    <DIR>          ..
+26/07/2026  22:43               480 App.tsx
+26/07/2026  22:39    <DIR>          components
+26/07/2026  22:39    <DIR>          hooks
+26/07/2026  22:39    <DIR>          i18n
+26/07/2026  22:51               529 index.css
+26/07/2026  22:51               332 main.tsx
+26/07/2026  22:57    <DIR>          mocks
+26/07/2026  22:39    <DIR>          pages
+26/07/2026  22:39    <DIR>          router
+26/07/2026  22:39    <DIR>          utils
+               3 arquivo(s)          1.341 bytes
+
+ Pasta de K:\downlods kewvin\readdy.cc\readdy.cc\preview\Screenflix-recuperado\src\components
+
+26/07/2026  22:39    <DIR>          .
+26/07/2026  22:39    <DIR>          ..
+26/07/2026  22:39    <DIR>          feature
+               0 arquivo(s)              0 bytes
+
+ Pasta de K:\downlods kewvin\readdy.cc\readdy.cc\preview\Screenflix-recuperado\src\components\feature
+
+26/07/2026  22:39    <DIR>          .
+26/07/2026  22:39    <DIR>          ..
+26/07/2026  22:15             3.610 FAQ.tsx
+26/07/2026  22:15             2.099 FeatureCards.tsx
+26/07/2026  22:15             4.273 Footer.tsx
+26/07/2026  22:15             7.167 HeroBanner.tsx
+26/07/2026  22:15             3.489 MovieCard.tsx
+26/07/2026  22:15             2.783 MovieRow.tsx
+26/07/2026  22:15             7.608 Navbar.tsx
+26/07/2026  22:15             4.665 Top10Row.tsx
+               8 arquivo(s)         35.694 bytes
+
+ Pasta de K:\downlods kewvin\readdy.cc\readdy.cc\preview\Screenflix-recuperado\src\hooks
+
+26/07/2026  22:39    <DIR>          .
+26/07/2026  22:39    <DIR>          ..
+26/07/2026  22:15             8.333 useAuth.tsx
+               1 arquivo(s)          8.333 bytes
+
+ Pasta de K:\downlods kewvin\readdy.cc\readdy.cc\preview\Screenflix-recuperado\src\i18n
+
+26/07/2026  22:39    <DIR>          .
+26/07/2026  22:39    <DIR>          ..
+26/07/2026  22:15               409 index.ts
+26/07/2026  22:39    <DIR>          local
+               1 arquivo(s)            409 bytes
+
+ Pasta de K:\downlods kewvin\readdy.cc\readdy.cc\preview\Screenflix-recuperado\src\i18n\local
+
+26/07/2026  22:39    <DIR>          .
+26/07/2026  22:39    <DIR>          ..
+26/07/2026  22:15               648 index.ts
+               1 arquivo(s)            648 bytes
+
+ Pasta de K:\downlods kewvin\readdy.cc\readdy.cc\preview\Screenflix-recuperado\src\mocks
+
+26/07/2026  22:57    <DIR>          .
+26/07/2026  22:57    <DIR>          ..
+26/07/2026  22:57             1.043 filmes.ts
+26/07/2026  22:15             2.241 planos.ts
+               2 arquivo(s)          3.284 bytes
+
+ Pasta de K:\downlods kewvin\readdy.cc\readdy.cc\preview\Screenflix-recuperado\src\pages
+
+26/07/2026  22:39    <DIR>          .
+26/07/2026  22:39    <DIR>          ..
+26/07/2026  22:39    <DIR>          admin
+26/07/2026  22:39    <DIR>          home
+26/07/2026  22:39    <DIR>          login
+26/07/2026  22:39    <DIR>          movie-detail
+26/07/2026  22:39    <DIR>          movies
+26/07/2026  22:15               754 NotFound.tsx
+26/07/2026  22:39    <DIR>          plans
+26/07/2026  22:39    <DIR>          search
+26/07/2026  22:39    <DIR>          signup
+26/07/2026  22:39    <DIR>          watch
+               1 arquivo(s)            754 bytes
+
+ Pasta de K:\downlods kewvin\readdy.cc\readdy.cc\preview\Screenflix-recuperado\src\pages\admin
+
+26/07/2026  22:39    <DIR>          .
+26/07/2026  22:39    <DIR>          ..
+26/07/2026  22:15            48.030 page.tsx
+               1 arquivo(s)         48.030 bytes
+
+ Pasta de K:\downlods kewvin\readdy.cc\readdy.cc\preview\Screenflix-recuperado\src\pages\home
+
+26/07/2026  22:39    <DIR>          .
+26/07/2026  22:39    <DIR>          ..
+26/07/2026  22:15             3.532 page.tsx
+               1 arquivo(s)          3.532 bytes
+
+ Pasta de K:\downlods kewvin\readdy.cc\readdy.cc\preview\Screenflix-recuperado\src\pages\login
+
+26/07/2026  22:39    <DIR>          .
+26/07/2026  22:39    <DIR>          ..
+26/07/2026  22:15             4.143 page.tsx
+               1 arquivo(s)          4.143 bytes
+
+ Pasta de K:\downlods kewvin\readdy.cc\readdy.cc\preview\Screenflix-recuperado\src\pages\movie-detail
+
+26/07/2026  22:39    <DIR>          .
+26/07/2026  22:39    <DIR>          ..
+26/07/2026  22:15             8.923 page.tsx
+               1 arquivo(s)          8.923 bytes
+
+ Pasta de K:\downlods kewvin\readdy.cc\readdy.cc\preview\Screenflix-recuperado\src\pages\movies
+
+26/07/2026  22:39    <DIR>          .
+26/07/2026  22:39    <DIR>          ..
+26/07/2026  22:15             5.278 page.tsx
+               1 arquivo(s)          5.278 bytes
+
+ Pasta de K:\downlods kewvin\readdy.cc\readdy.cc\preview\Screenflix-recuperado\src\pages\plans
+
+26/07/2026  22:39    <DIR>          .
+26/07/2026  22:39    <DIR>          ..
+26/07/2026  22:15            11.315 page.tsx
+               1 arquivo(s)         11.315 bytes
+
+ Pasta de K:\downlods kewvin\readdy.cc\readdy.cc\preview\Screenflix-recuperado\src\pages\search
+
+26/07/2026  22:39    <DIR>          .
+26/07/2026  22:39    <DIR>          ..
+26/07/2026  22:15             7.339 page.tsx
+               1 arquivo(s)          7.339 bytes
+
+ Pasta de K:\downlods kewvin\readdy.cc\readdy.cc\preview\Screenflix-recuperado\src\pages\signup
+
+26/07/2026  22:39    <DIR>          .
+26/07/2026  22:39    <DIR>          ..
+26/07/2026  22:15             7.087 page.tsx
+               1 arquivo(s)          7.087 bytes
+
+ Pasta de K:\downlods kewvin\readdy.cc\readdy.cc\preview\Screenflix-recuperado\src\pages\watch
+
+26/07/2026  22:39    <DIR>          .
+26/07/2026  22:39    <DIR>          ..
+26/07/2026  22:15             6.066 page.tsx
+               1 arquivo(s)          6.066 bytes
+
+ Pasta de K:\downlods kewvin\readdy.cc\readdy.cc\preview\Screenflix-recuperado\src\router
+
+26/07/2026  22:39    <DIR>          .
+26/07/2026  22:39    <DIR>          ..
+26/07/2026  22:15             1.072 config.tsx
+26/07/2026  22:15               709 index.ts
+               2 arquivo(s)          1.781 bytes
+
+ Pasta de K:\downlods kewvin\readdy.cc\readdy.cc\preview\Screenflix-recuperado\src\utils
+
+26/07/2026  22:39    <DIR>          .
+26/07/2026  22:39    <DIR>          ..
+26/07/2026  22:15             1.607 pix.ts
+               1 arquivo(s)          1.607 bytes
+
+     Total de Arquivos na Lista:
+              29 arquivo(s)        155.564 bytes
+              56 pasta(s)   733.877.780.480 bytes dispon¡veis

@@ -1,0 +1,32 @@
+@tailwind base; 
+@tailwind components; 
+@tailwind utilities; 
+ 
+* { 
+box-sizing:border-box; 
+} 
+ 
+body { 
+margin:0; 
+background:#000; 
+color:#fff; 
+font-family:Montserrat,Arial,sans-serif; 
+overflow-x:hidden; 
+} 
+ 
+img { 
+user-select:none; 
+} 
+ 
+.netflix-gradient { 
+background:linear-gradient(to right,#000 0%,transparent 60%),linear-gradient(to top,#000 0%,transparent 60%); 
+} 
+ 
+::-webkit-scrollbar { 
+width:8px; 
+} 
+ 
+::-webkit-scrollbar-thumb { 
+background:#e50914; 
+border-radius:20px; 
+} 
